@@ -11,7 +11,7 @@ import Settings from './pages/Settings';
 import UserLogin from './pages/UserLogin';
 import UserRegister from './pages/UserRegister';
 
-import MachineMonitor from  './pages/MachineMonitor/MachineMonitor';
+import MachineMonitor from './pages/MachineMonitor/MachineMonitor';
 import JobDetail from './pages/JobManage/JobDetail';
 import JobDependGraph from './pages/JobManage/JobDependGraph';
 import UserManage from './pages/SystemManage/UserManage';
