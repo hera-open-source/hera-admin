@@ -1,0 +1,34 @@
+.develop-center-container {
+    display: flex;
+    margin: 0px;
+    backg
+   
+}
+
+.file-tree {
+  padding-right:10px;
+  padding-left: 10px;
+  // border: 2px solid #61dafb;
+  width: auto;
+  align-self:flex-auto;
+  border-bottom-width: 2px;
+  background-color:rgb(255, 255, 255);
+
+}
+
+.code-zone {
+  padding-right:10px;
+  padding-left: 10px;
+  // border: 2px solid #61dafb;
+  flex:1;
+  background-color:rgb(255, 255, 255);
+}
+
+.button-operation {
+  // border: 2px solid #61dafb;
+  padding: 5px;
+}
+
+.file-tab {
+  padding: 5px;
+}

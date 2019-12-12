@@ -1,0 +1,39 @@
+.schedule-center-container {
+  display: flex;
+}
+
+.file-tree {
+
+}
+
+.code-editor{
+  
+  flex: 12;
+
+}
+
+.operation-zone {
+display: flex;
+}
+
+.operation-button{
+  
+}
+
+.config-form {
+  height: 100px;
+  border: 3px so black;
+  background-color: aqua;
+  margin: 2px
+}
+
+.file-button-ul {
+  display: inline-block;
+}
+
+.folder-button-ul {
+display: none;
+}
+li {
+  margin: 5px;
+}

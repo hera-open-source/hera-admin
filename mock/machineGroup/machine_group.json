@@ -1,0 +1,23 @@
+{
+    "msg":null,
+    "count":2,
+    "code":0,
+    "data":[
+        {
+            "id":1,
+            "name":"默认组",
+            "effective":1,
+            "description":"机器默认组",
+            "gmtCreate":1558064223000,
+            "gmtModified":1558064223000
+        },
+        {
+            "id":2,
+            "name":"spark组",
+            "effective":1,
+            "description":"执行spark任务",
+            "gmtCreate":1558064223000,
+            "gmtModified":1558064223000
+        }
+    ]
+}

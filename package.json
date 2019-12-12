@@ -15,7 +15,9 @@
     "ice.config.js"
   ],
   "dependencies": {
-    "@alifd/next": "^1.x",
+    "@ali/ice-ajax": "^0.3.5",
+    "@ali/ice-text-edit": "^1.0.0",
+    "@alifd/next": "^1.17.3",
     "@antv/data-set": "^0.8.9",
     "@icedesign/container": "^1.x",
     "@icedesign/form-binder": "^0.1.7",
@@ -23,28 +25,39 @@
     "@icedesign/img": "^1.x",
     "@icedesign/layout": "^1.x",
     "@icedesign/theme": "^1.x",
+    "axios": "^0.19.0",
     "bizcharts": "^3.2.0",
     "classnames": "^2.2.6",
+    "codemirror": "^5.49.0",
+    "d3": "^5.12.0",
     "enquire-js": "0.1.x",
+    "jquery": "^3.4.1",
     "moment": "^2.23.0",
+    "node-sass": "^4.12.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
+    "react-codemirror2": "^6.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-d3-graph": "^2.3.0",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.4.2",
+    "react-redux": "^7.1.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "ice-scripts": "^2.0.0",
     "ice-plugin-fusion": "^0.1.4",
-    "ice-plugin-moment-locales": "^0.1.0"
+    "ice-plugin-moment-locales": "^0.1.0",
+    "ice-scripts": "^2.0.0",
+    "ztree-for-react": "^1.2.0"
   },
   "scripts": {
     "start": "ice-scripts dev",
@@ -54,9 +67,9 @@
   "scaffoldConfig": {
     "builder": "ice-scripts",
     "name": "ice-creator-admin",
-    "title": "创作平台",
+    "title": "赫拉调度",
     "categories": [
-      "行业领域"
+      "赫拉调度"
     ],
     "screenshot": "https://img.alicdn.com/tfs/TB1zynrDHvpK1RjSZFqXXcXUVXa-2860-1580.png",
     "screenshots": [
@@ -71,5 +84,6 @@
     "type": "git",
     "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-creator-admin"
   },
-  "title": "hera"
+  "title": "hera",
+  "allChunks": true
 }

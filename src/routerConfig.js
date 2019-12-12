@@ -6,11 +6,9 @@ import Dashboard from './pages/Dashboard';
 import PostList from './pages/PostList';
 import NewPost from './pages/NewPost';
 import HotPost from './pages/HotPost';
-import Status from './pages/Status';
+// import Status from './pages/Status';
 import Settings from './pages/Settings';
 import UserLogin from './pages/UserLogin';
-import UserRegister from './pages/UserRegister';
-
 import MachineMonitor from './pages/MachineMonitor/MachineMonitor';
 import JobDetail from './pages/JobManage/JobDetail';
 import JobDependGraph from './pages/JobManage/JobDependGraph';
@@ -20,16 +18,14 @@ import MachineGroupManage from './pages/SystemManage/MachineGroupManage';
 import DevelopCenter from './pages/DevelopCenter/DevelopCenter';
 import ScheduleCenter from './pages/ScheduleCenter/ScheduleCenter';
 import Suggest from './pages/Suggest/Suggest';
+import Parent from './pages/Suggest/Parent';
+import CommentIndex from './pages/Suggest/CommentIndex';
 
 
 const routerConfig = [
   {
     path: '/user/login',
     component: UserLogin,
-  },
-  {
-    path: '/user/register',
-    component: UserRegister,
   },
   {
     path: '/dashboard',
@@ -46,10 +42,6 @@ const routerConfig = [
   {
     path: '/post/analysis',
     component: HotPost,
-  },
-  {
-    path: '/account/my',
-    component: Status,
   },
   {
     path: '/account/settings',
@@ -91,6 +83,14 @@ const routerConfig = [
   {
     path: '/suggest',
     component: Suggest,
+  },
+  {
+    path: '/parent',
+    component: Parent,
+  },
+  {
+    path: '/comment',
+    component: CommentIndex,
   },
 ];
 
