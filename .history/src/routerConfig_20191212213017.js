@@ -17,6 +17,9 @@ import MachineManage from './pages/SystemManage/MachineManage';
 import MachineGroupManage from './pages/SystemManage/MachineGroupManage';
 import DevelopCenter from './pages/DevelopCenter/DevelopCenter';
 import ScheduleCenter from './pages/ScheduleCenter/ScheduleCenter';
+import Suggest from './pages/Suggest/Suggest';
+import Parent from './pages/Suggest/Parent';
+
 
 
 const routerConfig = [
@@ -76,7 +79,19 @@ const routerConfig = [
   {
     path: '/scheduleCenter',
     component: ScheduleCenter,
-  }
+  },
+  {
+    path: '/suggest',
+    component: Suggest,
+  },
+  {
+    path: '/parent',
+    component: Parent,
+  },
+  {
+    path: '/comment',
+    component: CommentIndex,
+  },
 ];
 
 export default routerConfig;

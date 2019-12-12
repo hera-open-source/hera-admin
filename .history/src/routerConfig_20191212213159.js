@@ -76,7 +76,7 @@ const routerConfig = [
   {
     path: '/scheduleCenter',
     component: ScheduleCenter,
-  }
+  },
 ];
 
 export default routerConfig;

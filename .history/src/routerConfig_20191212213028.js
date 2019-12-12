@@ -19,6 +19,8 @@ import DevelopCenter from './pages/DevelopCenter/DevelopCenter';
 import ScheduleCenter from './pages/ScheduleCenter/ScheduleCenter';
 
 
+
+
 const routerConfig = [
   {
     path: '/user/login',
@@ -76,7 +78,19 @@ const routerConfig = [
   {
     path: '/scheduleCenter',
     component: ScheduleCenter,
-  }
+  },
+  {
+    path: '/suggest',
+    component: Suggest,
+  },
+  {
+    path: '/parent',
+    component: Parent,
+  },
+  {
+    path: '/comment',
+    component: CommentIndex,
+  },
 ];
 
 export default routerConfig;

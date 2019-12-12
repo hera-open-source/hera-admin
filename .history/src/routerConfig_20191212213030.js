@@ -76,7 +76,19 @@ const routerConfig = [
   {
     path: '/scheduleCenter',
     component: ScheduleCenter,
-  }
+  },
+  {
+    path: '/suggest',
+    component: Suggest,
+  },
+  {
+    path: '/parent',
+    component: Parent,
+  },
+  {
+    path: '/comment',
+    component: CommentIndex,
+  },
 ];
 
 export default routerConfig;
